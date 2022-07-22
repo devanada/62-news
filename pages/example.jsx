@@ -72,7 +72,7 @@ export async function getStaticProps() {
   };
 }
 
-export default function Home(props) {
+export default function Example(props) {
   console.log(props);
   // --==Client Side Rendering==--
   // useEffect(() => {

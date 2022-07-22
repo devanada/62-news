@@ -13,7 +13,9 @@ export default function Layout({ headTitle, headDesc, children }) {
       </Head>
       <main>
         <Header />
-        <div className="px-8">{children}</div>
+        <div className="w-full h-full px-8 flex flex-col overflow-auto">
+          {children}
+        </div>
       </main>
     </div>
   );
